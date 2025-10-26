@@ -1,0 +1,7 @@
+body{margin:0;background:#0a0a0a;color:#e5e5e5;font-family:system-ui,Inter,Arial} 
+.container{max-width:960px;margin:0 auto;padding:24px}
+.card{background:#111;border:1px solid #222;border-radius:16px;padding:16px}
+.btn{background:#10b981;color:#0a0a0a;border-radius:12px;padding:10px 16px;font-weight:600}
+.btn.secondary{background:#1f2937;color:#e5e5e5}
+.field{background:#0b0b0b;border:1px solid #222;border-radius:12px;padding:10px 12px}
+.grid{display:grid;gap:16px}

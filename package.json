@@ -1,0 +1,24 @@
+{
+  "name": "student-productivity-toolkit",
+  "private": true,
+  "scripts": {
+    "prepare-app": "node build-prepare.cjs",
+    "dev": "npm run prepare-app && next dev",
+    "build": "npm run prepare-app && next build",
+    "start": "next start",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@prisma/client": "5.19.1",
+    "stripe": "16.11.0",
+    "next-auth": "5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.6.2",
+    "eslint": "8.57.0",
+    "prisma": "5.19.1"
+  }
+}
